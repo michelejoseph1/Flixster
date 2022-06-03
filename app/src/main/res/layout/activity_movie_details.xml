@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/tvTitleTwo"
-        android:layout_width="380dp"
-        android:layout_height="121dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:text="Movie Title"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,15 +21,17 @@
         style="Widget.AppCompat.RatingBar.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:numStars="5"
         android:stepSize="0.5"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="139dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleTwo" />
 
     <TextView
         android:id="@+id/textOverview2"
-        android:layout_width="372dp"
-        android:layout_height="474dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
