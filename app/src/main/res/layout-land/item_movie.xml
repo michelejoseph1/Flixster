@@ -26,14 +26,16 @@
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="286dp"
-        android:layout_height="130dp"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:fadingEdge="horizontal"
-        android:maxLines="5"
         tools:text="After being involuntarily discharged from the U.S. Special Forces, James Harper decides to support his family by joining a private contracting organization alongside his best friend and under the command of a fellow veteran. Overseas on a covert mission, Harper must evade those trying to kill him while making his way back home" />
 
 </RelativeLayout>
